@@ -1,3 +1,11 @@
+// Learning C
+// Florin S
+
+// In C we don't have a native type for boolean
+// in C   1 means true and 0 means false
+
+// define an enum with 2 values : true and false
+
 #include <stdio.h>
 typedef enum
 {

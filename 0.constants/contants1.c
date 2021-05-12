@@ -1,3 +1,7 @@
+// Learning C
+// Florin S
+
+//defining a constant with keyword const
 #include <stdio.h>
 
 int main()

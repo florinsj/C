@@ -1,3 +1,9 @@
+// Learning C
+// Florin S
+
+// static variable in a function , remain in memory after function execution
+// example with static variable
+
 #include <stdio.h>
 
 //with static variable

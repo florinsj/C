@@ -1,6 +1,10 @@
-#include <stdio.h>
+// Learning C
+// Florin S
 
-//without static variable
+// static variable in a function , remain in memory after function execution
+// example without static variable
+
+#include <stdio.h>
 
 int main()
 {
