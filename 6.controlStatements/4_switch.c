@@ -1,7 +1,7 @@
 // Learning C
 // Florin S
 
-// nested switch case statements
+// nested switch case statement
 #include <stdio.h>
 int main()
 {

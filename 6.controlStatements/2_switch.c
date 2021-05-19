@@ -1,7 +1,7 @@
 // Learning C
 // Florin S
 
-// switch case statements
+// switch case statement
 //switch a boolean value
 #include <stdio.h>
 int main()

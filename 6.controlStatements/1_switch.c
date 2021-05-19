@@ -1,8 +1,7 @@
 // Learning C
 // Florin S
 
-// switch case statements
-//switch without break; ==> error
+// switch case statement
 #include <stdio.h>
 int main()
 {
@@ -13,14 +12,14 @@ int main()
     switch (number)
     {
     case 10:
-        printf("Number is equal to 10\n");
-
+        printf("Number is equal to 10");
+        break;
     case 50:
-        printf("Number is equal to 50\n");
-
+        printf("Number is equal to 50");
+        break;
     case 100:
-        printf("Number is equal to 100\n");
-
+        printf("Number is equal to 100");
+        break;
     default:
         printf("Number is not equal to 10, 50 or 100");
     }
