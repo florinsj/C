@@ -15,9 +15,11 @@
 
 void function1();
 
+int y = 1; // global variable
+
 int main()
 {
-    int y = 1;       // global variable   --- also automatic variable
+    int b = 1;       // global variable   --- also automatic variable
     auto int a = 20; // automatic variable
 
     function1();

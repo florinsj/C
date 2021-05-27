@@ -14,9 +14,11 @@
 //                  <==>  Can be changed by any function.It is available to any function
 void function1();
 
+int y = 1; // global variable
+
 int main()
 {
-    int y = 1; // global variable
+
     function1();
 }
 

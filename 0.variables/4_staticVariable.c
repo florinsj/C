@@ -15,9 +15,10 @@
 
 void function1();
 
+int y = 1; // global variable
+
 int main()
 {
-    int y = 1; // global variable
 
     function1();
     function1();
