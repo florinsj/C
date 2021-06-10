@@ -12,7 +12,7 @@
 // generaly, iterative solution are more efficient than recursion
 // problems suited to be solved by recursion : tower of Hanoi, Fibonacci , factorial
 
-// example - Fibonacci series
+// example - Fibonacci sequence
 
 #include <stdio.h>
 int fibo(int);
@@ -20,9 +20,15 @@ int fibo(int);
 void main()
 {
     int n;
-    printf("Enter a number to calculate fibonacci series\n");
+    printf("Enter the number up to wich to calculate the number of Fibbonaci: \n");
     scanf("%d", &n);
-    printf("the fibonacci series is: %d", fibo(n));
+    printf("The number of Fibonacci is: %d\n", fibo(n));
+    int i;
+    printf("The Fibonnaci sequence is: ");
+    for (i = 0; i <= n; i++)
+    {
+        printf("%d ", fibo(i));
+    }
 }
 
 int fibo(int n)
