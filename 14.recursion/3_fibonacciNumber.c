@@ -20,7 +20,7 @@ int fibo(int);
 void main()
 {
     int n;
-    printf("Enter the number up to wich to calculate the number of Fibbonaci: \n");
+    printf("Enter the number up to which to calculate the number of Fibbonaci: \n");
     scanf("%d", &n);
     printf("The number of Fibonacci is: %d", fibo(n));
 }
