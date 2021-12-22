@@ -12,7 +12,7 @@
 
 // static variables <==> declared with static keyword     --- ex : static int x=3;
 //                  <==> it retains the value between multiple function calls
-#include <stdio.h>
+
 void function1();
 
 int y = 1; // global variable
@@ -27,7 +27,7 @@ int main()
 
 void function1()
 {
-    int x = 1; // local variable
+    int x = 1; //local variable
 
     static int j = 1; // static variable
     x += 1;
